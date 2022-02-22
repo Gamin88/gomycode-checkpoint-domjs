@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Checkpoint!DOM.js</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="panier">
+            <h1>Panier</h1>
+        </div>
+        <!--Conteneur des articles et prix-->
+        <div class="container-article">
+            <div id="titre">
+                <p>Nom de l'article</p>
+                <p>Quantité</p>
+                <p>Prix unitaire</p>
+                <p>Sous total</p>
+            </div>
+
+            <div class="prduit1">
+                <div id="sac">
+                    <img src="res/images/Wheat-Grain-50kgs-PP-Bag-Woven-for-Rice.jpg"/>
+                    <div class="infoarticle">
+                        <p>Sac de riz</p>
+                        <p>Supprimer</p>
+                    </div>
+                </div>
+
+                <!--information sur les boutons du premier article-->
+                <div id="container-btn1">
+                    <div class="BOUTON">
+                        
+                        <button class="minus">-</button>
+                            
+                          <input class="qty" type="text" name="text" value="1">
+
+                        <button class="plus">+</button>
+                    </div>
+                    <div class="prix1">
+                        <p>25000</p>
+                        <p>50000</p>  
+                    </div>
+                </div>
+            </div>
+
+            <div id="ajouter">
+                <form method="post" action="">
+                    <input type="text" name="zdn"/>
+                    <input type="text" name="nbr"/>
+                    <button id="btn">Ajouter un article</button>
+                </form>
+            </div>
+
+        </div>
+
+        <div id="total">
+            <form method="post" action="">
+                <label>TOTAL:</label>
+                <input type="text" name="valeur"/>
+            </form>
+        </div>
+        <script type="text/javascript" src="js/dom.js"></script>
+    </body>
+</html>

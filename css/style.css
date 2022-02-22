@@ -1,0 +1,157 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+
+/*Css de l'entete panier*/
+.panier{
+    border:1px solid black;
+    width: 70%;
+    margin-left: 200px;
+    margin-top:100px;
+    background-color: black;
+}
+/*..................fin.................*/
+
+/*Css du container article*/
+.container-article{
+    display:block;
+    border:1px solid blue;
+    width: 70%;
+    margin-left: 200px;
+    margin-top: 10px;
+    height: 350px;
+}
+
+/*..................css produit 1...............*/
+#titre{
+    display:flex;
+    justify-content:space-between;
+}
+
+.prduit1{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+}
+.infoarticle{
+    margin-top: 30px;
+}
+/*
+.prix1{
+    display: flex;
+}
+*/
+#container-btn1{
+    display:flex;
+    width:70%;
+    justify-content: space-between;
+    
+}
+#spn{
+    border:1px solid black;
+}
+
+
+#sac{
+    display:flex;
+}
+/*....................fin css produit1..............................*/
+
+
+/*..................debut css produit 2.............................*/
+.produit2{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    background-color: gray;
+}
+.container-btn2{
+    display:flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.marmitte{
+    display:flex;
+    
+}
+#info-article{
+    margin-top: 30px;
+}
+.Qtyval1{
+    width: 30px;
+}
+.Qtyval2{
+    width: 30px;
+}
+
+
+/*.......................fin css produit 2..............................*/
+
+img{
+    width: 100px;/*image de marmitte et sac de riz*/
+}
+
+
+h1{
+    color: white;/*couleur de texte panier*/
+}
+
+/*formulaire ajouter produit*/
+#ajouter{
+    margin-top: 20px;
+    margin-left: 200px;
+    
+  
+}
+#btn{
+    width: 100px;
+    background-color:rgb(39, 39, 185);
+    border:none;
+    color: white;
+    
+}
+
+/*..........fin de formulaire bouton ajouter.........*/
+
+/* Css des boutons plus et moins*/
+.add-1{
+    width: 15px;
+    height: 15px;
+
+    
+}
+
+.add-2{
+    width:15px;
+    height:15px;
+}
+svg{
+    width: 15px;
+    height: 15px;
+}
+/*..................fin........*/
+
+#total{
+    border:1px solid rgb(57, 57, 226);
+    width:70%;
+    height:50px;
+    margin-top:12px;
+    margin-left:200px;
+    background-color:rgb(34, 113, 231) ;
+}
+
+
+.prix1{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+
+}
